@@ -1,0 +1,66 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100vw;
+    height:100vh;
+}
+.nums{
+    height:70px;
+    width:70px;
+    margin:10px;
+    font-size: 30px;
+}
+.nums:hover{
+    background-color: blue;
+}
+#clear-btn{
+    height:70px;
+    width:70px;
+    margin:10px;
+    font-size: 30px;
+}
+.operator{
+    height:70px;
+    width:70px;
+    margin:10px;
+    font-size: 30px;
+}
+.operator:hover{
+    background-color: orange;
+}
+.decimal{
+    height:70px;
+    width:70px;
+    margin:10px;
+    font-size: 30px;
+}
+.decimal:hover{
+    background-color: orange;
+}
+.equal{
+    height:70px;
+    width:70px;
+    margin:10px;
+    font-size: 30px;
+}
+.equal:hover{
+    background-color: orange;
+}
+.screen{
+    width:350px;
+    border:1px solid black;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    height:100px;
+    margin: 13px;
+}
+.input{
+    font-size:30px ;
+}
+.output{
+    font-size:50px ;
+
+}
